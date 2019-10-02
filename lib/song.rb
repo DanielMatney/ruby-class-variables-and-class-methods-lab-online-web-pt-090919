@@ -18,7 +18,7 @@ class Song
     genres = []
     @@genres.each do |genre|
       if genres.include?(genre) == false
-        genres << genres
+        genres << genre
       end
     end
     genres
