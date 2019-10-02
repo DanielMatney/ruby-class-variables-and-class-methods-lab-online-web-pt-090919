@@ -23,6 +23,7 @@ class Song
       if artists.include?(artist) == false
         artists << artist
       end
+    end
       artists
   end
   
