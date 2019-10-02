@@ -32,6 +32,7 @@ class Song
       else genres[genre] = 1
       end
     end
+    genres
   end
   
   def self.artists
